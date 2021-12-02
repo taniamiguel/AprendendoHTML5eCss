@@ -1,2 +1,2 @@
 # AprendendoHTML5eCss
-Realizando pequenos exer  para aprender sobre a linguagem HTML5 e Css
+Realizando pequenos exercícios para aprender a lingheagem Html5 e Css

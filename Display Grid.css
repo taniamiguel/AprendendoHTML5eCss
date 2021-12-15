@@ -1,14 +1,41 @@
-h1 { 
 
-    text-align: center;
-}
-h2 {
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 
-    margin-top: 0px;
 }
+
+
+.comprar {
+
+   align-self: start;
+   text-align: center;
+}
+/*Estilos Gerais */
+
+
 main {
 
     font-family: Arial;
+    margin: 40px;
+
+} 
+h1, p {
+
+    margin: 0px;
+}
+h1 {
+    font-size: 48px;
+    line-height: 1;
+}
+p, span {
+    font-size: 20px;
+}
+img {
+    max-width: 100%;
+    border-radius: 4px;
 }
 .comprar {
 
@@ -16,20 +43,15 @@ main {
     color: #103;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: 20px;
 }
+.preco {
 
-.item {
-
-    background: #f7f7f7;
-    border: 1px solid e7e7e7;
-    padding: 20px;
+    background: #ddd;
+    padding: 5px 10px;
     border-radius: 4px;
-    display: grid;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 300px 300px;
-    gap: 20px;
-    justify-content: center;
+.grid {
 
+    display: grid;
 }
